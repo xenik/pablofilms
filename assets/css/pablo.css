@@ -9,3 +9,8 @@ body {
     font: 16px/1.42857 "Helvetica Neue",Helvetica,Arial,sans-serif;
     margin:0;
 }
+
+.logo {
+  transform: rotate(-21deg);
+  /*http://html5book.ru/css3-transform/*/
+}
