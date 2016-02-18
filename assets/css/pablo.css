@@ -1,3 +1,8 @@
+/* styles for bootstrap */
+.navbar {
+  margin-bottom: 0;
+}
+
 *, *:before, *:after {
   -moz-box-sizing:border-box;
   -webkit-box-sizing:border-box;
@@ -11,6 +16,149 @@ body {
 }
 
 .logo {
-  transform: rotate(-21deg);
+  transform: rotate(-15deg);
   /*http://html5book.ru/css3-transform/*/
+  width:90px;
+  position: absolute;
+  z-index: 1;
+  top:-10px;
+  margin: 0 auto;
+  /*box-shadow: */
+}
+
+
+/* my styles */
+
+#block-main-scene, #block-weddings, #block-children, #block-promos,
+#block-how-we-works, #block-replies, #block-instagram, #block-contacts {
+  width:100%;
+  height: 600px;
+  border-bottom: 4px solid lime;
+}
+
+/* *****************************/
+#block-main-scene {
+  background-color: skyblue;
+  position: relative;
+}
+
+#block-main-scene > .container {
+
+}
+#maybe-menu {
+  background-color: #111;
+  background: rgba(50, 50, 50, 0.6);
+  /*opacity: 0.7;*/
+  position: absolute;
+  bottom:0;
+}
+
+#maybe-menu ul>li>a {
+  color: #9999ff;
+}
+
+/* *****************************/
+#block-weddings {
+ background-color: #fdf;
+ height:750px;
+}
+
+#block-weddings img:hover {
+  background-color: skyblue;
+}
+
+
+/* *****************************/
+#block-children {
+  height: 550px;
+  background-color: #ffd;
+}
+
+#block-children img:hover {
+  background-color: skyblue;
+}
+/* *****************************/
+#block-promos {
+ background-color: #dff;
+  height: 550px;
+}
+
+#block-promos img:hover {
+  background-color: skyblue;
+}
+/* *****************************/
+#block-how-we-works {
+ background-color: white;
+}
+/* *****************************/
+#block-replies {
+ background-color: #fdd;
+ height: 300px;
+}
+
+.carousel-control {
+  width:8%;
+}
+
+.carousel-inner > .item > .row {
+  width: 84%;
+  margin: auto;
+}
+
+.carousel-inner > .item > .row .panel {
+  /*display:inline-block;*/
+  margin-bottom: 0;
+}
+
+.carousel-inner > .item > .row > .col-md-4 {
+  padding-top:15px;
+}
+
+.carousel-inner > .item > .row > .col-md-4 .panel-body {
+  height:200px;
+}
+
+.carousel-inner > .item > .row > .col-md-4 .panel-footer > p {
+  margin: 0;
+}
+
+.carousel-indicators {
+  bottom: 2px;
+}
+
+#block-replies .item {
+ height: 300px;
+}
+
+/* *****************************/
+#block-instagram {
+ background-color: gray;
+}
+
+/* *****************************/
+#block-contacts {
+ background-color: #ffd;
+}
+
+footer {
+  height:50px;
+  background-color: #2B2B2B;
+  color:white;
+}
+
+
+/* *****************************/
+.center-block {
+  margin: 0 15%;
+  background: white;
+}
+
+
+.show-grid [class^=col-] {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #eee;
+  background-color: rgba(86,61,124,.15);
+  border: 1px solid #ddd;
+  border: 1px solid rgba(86,61,124,.2);
 }
